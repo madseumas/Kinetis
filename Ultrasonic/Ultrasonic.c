@@ -107,7 +107,7 @@ void US_Init(void)
 	usDevices.usDevice[2].setVal = USTRIGLEFT_SetVal;
 	usDevices.usDevice[3].id = US_LEFT;
 
-	/* Left sensor */
+	/* Right sensor */
 	usDevices.usDevice[3].state = ECHO_IDLE;
 	usDevices.usDevice[3].capture = 0;
 	usDevices.usDevice[3].trigDevice = USTRIGRIGHT_Init(NULL);
